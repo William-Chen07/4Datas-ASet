@@ -1,9 +1,4 @@
-
-
-
-RaceResults %>%
+print(RaceResults %>%
   ggplot(aes(x = TeamName, y = Points)) +
-  geom_boxplot()
-
-
+  geom_boxplot())
 
